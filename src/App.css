@@ -1,38 +1,85 @@
 .App {
-  text-align: center;
+  margin:0;
+  padding: 0;
+}
+.productList {
+ width : 80%;
+ white-space: nowrap;
+ display: inline-block;
+ margin-left: 120px;
+ margin-right : 70px;
+ margin-bottom: 30px;
+ padding-bottom: 10px;
+}
+.cartList {
+ width : 82%;
+ white-space: nowrap;
+ display: inline-block;
+ border: 3px solid green;
+ margin-left: 120px;
+ margin-right : 70px;
+ margin-bottom: 20px;
+ padding: 15px 15px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.qtyPriceList {
+  color:black;
+  width : 50%;
+  display : inline-block
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.shiftRight { 
+  width : 25%;
+  display : inline-block;
+  text-align: center ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.shiftLeft {
+  text-align: center; 
+  width : 33%;
+  display : inline-block;
+  margin-left : 50px
+}
+
+.buttons {
+  text-align: center; 
+  width: 10%;
+  display : inline-block;
+  align-content: center;
+  vertical-align: 35px;
+}
+
+.addButtons {
+  vertical-align: 40px;
+  margin : 2px 2px;
+  width: 15%;
+}
+
+.buttonAdd {
+  background-color: grey;
   color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px
 }
-
-.App-link {
-  color: #61dafb;
+.buttonStyle {
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  border-radius: 25%;
+  background-color: grey;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checkoutList {
+  display: inline-block;
+  vertical-align: 15px;
+  width: 50%;
+}
+.buttonCheckout {
+  margin-left: 300px;
+  text-align: center;
+  padding : 2px 10px;
+  width: 25%
 }

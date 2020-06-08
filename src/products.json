@@ -1,0 +1,32 @@
+[
+    {
+        "Brandname" :  "Milma",
+        "Productname" : "Milma Curd",
+        "Quantity" : "500 ml",
+        "Price" : 30,
+        "MRP" : 30,
+        "imgurl" : "milmacurd",
+        "offerText" : "Milma better quality curd"
+    },
+
+    {
+        "Brandname" :  "Milma",
+        "Productname" : "Butter",
+        "Quantity" : "500 g",
+        "Price" : 80,
+        "MRP" : 80,
+        "imgurl" : "butter",
+        "offerText" : "Better better Milma butter "
+    },
+    
+    {
+        "Brandname" :  "Amul",
+        "Productname" : "Ghee",
+        "Quantity" : "400g",
+        "Price" : 55,
+        "MRP" : 55,
+        "imgurl" : "amulghee",
+        "offerText" : "Amul ghee maintains quality"
+    }
+
+]
